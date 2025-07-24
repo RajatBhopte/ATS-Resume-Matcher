@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "resume",
+    "optimizer",
+    "AI",
+    "job",
+    "career",
+    "CV",
+    "application",
+    "improvement",
+    "analysis"
+  ],
+  "author": "Manthan Ank",
+  "license": "ISC",
+  "description": "AI-powered resume and job description analyzer to help you optimize your resume for specific job postings.",
+  "dependencies": {
+    "@google/genai": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mammoth": "^1.9.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "pdf-parse": "^1.1.1"
+  }
+}
